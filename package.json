@@ -9,6 +9,7 @@
     "dev:queue": "nodemon src/queue.js"
   },
   "dependencies": {
+    "@sentry/node": "5.13.2",
     "bull": "^3.13.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
