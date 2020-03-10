@@ -11,6 +11,7 @@
   "dependencies": {
     "@sentry/node": "5.13.2",
     "bull": "^3.13.0",
+    "bull-board": "^0.7.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "nodemailer": "^6.4.4"

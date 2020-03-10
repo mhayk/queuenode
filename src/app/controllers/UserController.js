@@ -11,7 +11,7 @@ export default {
     };
 
     // Add the job RegistrationMail in the queue
-    await Queue.add({ user });
+    await Queue.add('RegistrationMail', { user });
 
     return res.json(user);
   },
